@@ -1,0 +1,19 @@
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+  --primary: 240 100% 67%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 240 4.8% 95.9%;
+  --muted-foreground: 240 3.8% 46.1%;
+  --border: 240 5.9% 90%;
+}
+
+.dark {
+  --background: 222.2 47.4% 11.2%;
+  --foreground: 0 0% 100%;
+  --primary: 240 100% 55%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --border: 240 3.7% 15.9%;
+}
