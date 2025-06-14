@@ -1,4 +1,6 @@
+import { Routes } from "./routes"
+
 export const AppRoot = () => {
-  return <h1>Teste</h1>
+  return <Routes/>
 }
 
