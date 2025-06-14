@@ -7,7 +7,7 @@ Lynxa is a modern web interface designed with performance, scalability in mind.
 - 🌓 Theme toggle (light/dark) using Zustand and Tailwind CSS
 - ⚡ Built with Vite + React + TypeScript
 - 🎨 Custom CSS variables for full theme control
-- 🔍 Atomic components with global styling
+- 🧩 Reusable UI components styled with Tailwind CSS
 - 🧪 Unit testing configured with Vitest + Testing Library
 - 📁 Modular and scalable folder structure
 
@@ -72,10 +72,10 @@ src/
 ├── assets/          # Static assets (SVGs, images, etc.)
 ├── components/      # Reusable UI components (e.g. Button, Header, Footer)
 ├── layouts/         # Page layout components (DefaultLayout)
-├── modules/         # Feature-based structure (e.g. hero section)
-├── routes/          # Routing system
-├── stores/          # Zustand stores (themeStore)
-├── styles/          # Tailwind and CSS variables
+├── modules/         # Feature-based modules (e.g. hero section)
+├── routes/          # Routing system and route definitions
+├── stores/          # Global state management (Zustand stores)
+├── styles/          # Global styles and Tailwind setup (base.css, index.css)
 ├── types/           # Global shared types
 ├── utils/           # Utility functions (e.g. theme manager)
 ├── AppRoot.tsx      # Application root
