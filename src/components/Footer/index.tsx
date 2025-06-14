@@ -1,4 +1,4 @@
-import supplier from '@/assets/logo-aurora.svg'
+import supplier from '@/assets/logo-aurora.png'
 export function Footer() {
   return (
     <footer className="w-full text-center">
